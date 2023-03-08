@@ -1,10 +1,12 @@
 import React from 'react';
+import Navigation from './components/Navigation/Navigation';
+import Home from './pages/Home/Home';
 
 function App() {
   return (
     <div className='App'>
-      <h1 className='Header'>Header</h1>
-      <h2>Welcome</h2>
+      <Navigation />
+      <Home />
     </div>
   );
 }

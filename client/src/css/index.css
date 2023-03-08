@@ -1,9 +1,12 @@
 :root {
-  --primary-color: #17a2b8;
-  --dark-color: #343a40;
-  --light-color: #f4f4f4;
-  --danger-color: #dc3545;
-  --success-color: #28a745;
+  --primary-color: rgb(23, 162, 184);
+  --primary-color-hover: rgb(21, 144, 163);
+  --dark-color: rgb(52, 58, 64);
+  --light-color: rgb(244, 244, 244);
+  --light-color-hover: rgb(204, 204, 204);
+  --danger-color: rgb(220, 53, 69);
+  --success-color: rgb(40, 167, 69);
+  --hover-time: 0.2s;
 }
 
 * {

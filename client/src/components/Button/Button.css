@@ -1,0 +1,24 @@
+.Button {
+  margin: 5px;
+  padding: 10px 20px;
+  font-size: 1.2rem;
+  border: none;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+  cursor: pointer;
+  transition: var(--hover-time) ease;
+}
+
+.Button:hover {
+  background-color: var(--light-color-hover);
+}
+
+.Button.Secondary {
+  background-color: var(--primary-color);
+  color: var(--light-color);
+  transition: var(--hover-time) ease;
+}
+
+.Button.Secondary:hover {
+  background-color: var(--primary-color-hover);
+}
