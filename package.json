@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "client": "npm start --prefix client",
-    "server": "npx nodemon server.js",
+    "server": "npx nodemon index.js",
     "dev": "npx concurrently \"npm run server\" \"npm run client\""
   },
   "repository": {
