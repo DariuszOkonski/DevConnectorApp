@@ -27,3 +27,8 @@ a {
   color: var(--white-color);
   text-decoration: none;
 }
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
