@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,700;1,100;1,300;1,700&display=swap');
+
 :root {
   --primary-color: rgb(23, 162, 184);
   --primary-color-hover: rgb(21, 144, 163);
@@ -6,6 +8,8 @@
   --light-color-hover: rgb(204, 204, 204);
   --danger-color: rgb(220, 53, 69);
   --success-color: rgb(40, 167, 69);
+  --white-color: #fff;
+  --black-color: #000;
   --hover-time: 0.2s;
 }
 
@@ -16,5 +20,10 @@
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Lato', sans-serif;
+}
+
+a {
+  color: var(--white-color);
+  text-decoration: none;
 }
