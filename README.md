@@ -23,7 +23,7 @@
 - request
 - https://jwt.io
 
-devDep
+devDependencies
 
 - nodemon
 - concurrently
