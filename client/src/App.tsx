@@ -10,8 +10,8 @@ function App() {
       <Navigation />
       {/* <Home /> */}
       <div className='container'>
-        {/* <SignIn /> */}
-        <SignUp />
+        <SignIn />
+        {/* <SignUp /> */}
       </div>
     </div>
   );

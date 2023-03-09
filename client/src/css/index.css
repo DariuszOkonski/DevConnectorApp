@@ -14,6 +14,7 @@
   --hover-time: 0.2s;
   --page-margin-top: 6rem;
   --page-margin-top-large: 7rem;
+  --page-margin-bottom: 2rem;
 }
 
 * {
@@ -33,6 +34,7 @@ body {
   max-width: 1100px;
   margin: 0 auto;
   margin-top: var(--page-margin-top);
+  margin-bottom: var(--page-margin-bottom);
   padding: 0 10px;
 }
 
