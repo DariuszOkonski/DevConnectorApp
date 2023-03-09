@@ -1,5 +1,6 @@
 .Button {
-  margin: 5px;
+  display: inline-block;
+  margin: 5px 5px;
   padding: 10px 20px;
   font-size: 1.2rem;
   border: none;
@@ -21,4 +22,11 @@
 
 .Button.Secondary:hover {
   background-color: var(--primary-color-hover);
+}
+
+@media (max-width: 600px) {
+  .Button {
+    font-size: 0.8rem;
+    padding: 5px 10px;
+  }
 }

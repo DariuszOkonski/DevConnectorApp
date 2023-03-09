@@ -11,7 +11,7 @@ export default function Home() {
 
       <div>
         <Button text={configText.button.signUp} secondaryButton />
-        <Button text={configText.button.Login} />
+        <Button text={configText.button.login} />
       </div>
     </div>
   );

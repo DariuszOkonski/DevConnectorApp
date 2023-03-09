@@ -9,7 +9,7 @@ export default function LeadHeader({ text, icon }: LeadHeaderProps) {
   return (
     <div className='LeadHeader'>
       <i className={icon}></i>
-      <p className='LeadHeader-text'>{text}</p>
+      <p className='LeadHeader__text'>{text}</p>
     </div>
   );
 }

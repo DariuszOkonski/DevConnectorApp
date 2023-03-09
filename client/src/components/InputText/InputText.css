@@ -1,0 +1,34 @@
+.InputText {
+  display: flex;
+  flex-direction: column;
+  margin: 20px 0;
+  color: var(--dark-color);
+}
+
+.InputText input {
+  padding: 10px;
+  border: 1px solid var(--dark-color-border);
+  font-size: 1.2rem;
+}
+
+.InputText__small {
+  margin-top: 5px;
+  color: var(--dark-color);
+  font-size: 1rem;
+}
+
+@media (max-width: 600px) {
+  .InputText {
+    margin: 20px 0;
+  }
+
+  .InputText input {
+    padding: 5px;
+    font-size: 0.8rem;
+  }
+
+  .InputText__small {
+    margin-top: 5px;
+    font-size: 0.6rem;
+  }
+}

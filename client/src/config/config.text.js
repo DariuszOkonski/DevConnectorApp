@@ -9,7 +9,8 @@ export const configText = {
   },
   button: {
     signUp: 'Sign Up',
-    Login: 'Login',
+    login: 'Login',
+    register: 'Register',
   },
   alert: {
     defaultMessage: 'Something went wrong',
@@ -29,5 +30,23 @@ export const configText = {
   icons: {
     user: 'fas fa-user',
     code: 'fas fa-code',
+  },
+  inputText: {
+    emailAddress: 'Email Address',
+    password: 'Password',
+    confirmPassword: 'Confirm Password',
+    name: 'Name',
+    emailInfo:
+      'This site uses Gravatar so if you want a profile image, use a Gravatar email',
+  },
+  infoText: {
+    signIn: {
+      text: "Don't have an account? ",
+      link: 'Sign Up',
+    },
+    signUp: {
+      text: 'Already have an account? ',
+      link: 'Sign In',
+    },
   },
 };

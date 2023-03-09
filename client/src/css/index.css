@@ -4,6 +4,7 @@
   --primary-color: rgb(23, 162, 184);
   --primary-color-hover: rgb(21, 144, 163);
   --dark-color: rgb(52, 58, 64);
+  --dark-color-border: rgb(204, 204, 204);
   --light-color: rgb(244, 244, 244);
   --light-color-hover: rgb(204, 204, 204);
   --danger-color: rgb(220, 53, 69);
@@ -27,7 +28,7 @@ body {
 }
 
 .container {
-  background-color: rgb(243, 243, 243);
+  background-color: rgb(247, 247, 247);
   width: 100%;
   max-width: 1100px;
   margin: 0 auto;

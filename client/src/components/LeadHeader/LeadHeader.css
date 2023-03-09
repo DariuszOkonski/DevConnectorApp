@@ -10,16 +10,16 @@
   font-size: 1.8rem;
 }
 
-.LeadHeader-text {
+.LeadHeader__text {
   font-size: 1.8rem;
 }
 
 @media (max-width: 600px) {
   .LeadHeader i {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 
   .LeadHeader-text {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
   }
 }

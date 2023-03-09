@@ -1,0 +1,14 @@
+.InfoText {
+  font-size: 1.2rem;
+  color: var(--dark-color);
+}
+
+.InfoText a {
+  color: var(--primary-color);
+}
+
+@media (max-width: 600px) {
+  .InfoText {
+    font-size: 0.8rem;
+  }
+}
