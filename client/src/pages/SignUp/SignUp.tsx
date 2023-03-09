@@ -1,21 +1,21 @@
 import Alert from '../../components/Alert/Alert';
 import Header from '../../components/Header/Header';
 import LeadHeader from '../../components/LeadHeader/LeadHeader';
-import SignInForm from '../../components/SignInForm/SignInForm';
-
+import SignUpForm from '../../components/SignUpForm/SignUpForm';
 import { configText } from '../../config/config.text';
-import './SignIn.css';
-export default function SignIn() {
+import './SignUp.css';
+
+export default function SignUp() {
   return (
-    <div className='SignIn'>
+    <div className='SignUp'>
       <Alert />
-      <Header text={configText.header.signIn} />
+      <Header text={configText.header.signUp} />
       <LeadHeader
+        text={configText.leadText.signUp}
         icon={configText.icons.user}
-        text={configText.leadText.signIn}
       />
 
-      <SignInForm />
+      <SignUpForm />
     </div>
   );
 }
