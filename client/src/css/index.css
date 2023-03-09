@@ -11,6 +11,7 @@
   --white-color: #fff;
   --black-color: #000;
   --hover-time: 0.2s;
+  --page-margin-top: 6rem;
 }
 
 * {
@@ -20,16 +21,17 @@
 }
 
 body {
-  font-family: 'Lato', sans-serif;
+  /* font-family: 'Lato', sans-serif; */
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 .container {
-  background-color: yellow;
-  height: 100vh;
+  background-color: rgb(243, 243, 243);
   width: 100%;
-  max-width: 860px;
+  max-width: 1100px;
   margin: 0 auto;
-  padding: 0 1rem;
+  margin-top: var(--page-margin-top);
+  padding: 0 10px;
 }
 
 a {

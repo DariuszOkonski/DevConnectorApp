@@ -11,4 +11,9 @@ export const configText = {
     signUp: 'Sign Up',
     Login: 'Login',
   },
+  alert: {
+    defaultMessage: 'Something went wrong',
+    alertDanger: 'Alert-danger',
+    alertSuccess: 'Alert-success',
+  },
 };

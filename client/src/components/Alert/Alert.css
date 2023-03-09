@@ -1,0 +1,13 @@
+.Alert {
+  padding: 10px 20px;
+  margin: 10px 0;
+  color: var(--light-color);
+}
+
+.Alert-danger {
+  background-color: var(--danger-color);
+}
+
+.Alert-success {
+  background-color: var(--success-color);
+}

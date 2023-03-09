@@ -1,0 +1,12 @@
+.Header {
+  margin: 10px 0;
+  font-size: 3.2rem;
+  color: var(--primary-color);
+  font-weight: 100;
+}
+
+@media (max-width: 600px) {
+  .Header {
+    font-size: 2.2rem;
+  }
+}
