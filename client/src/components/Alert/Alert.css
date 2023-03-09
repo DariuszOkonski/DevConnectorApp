@@ -2,6 +2,7 @@
   padding: 10px 20px;
   margin: 10px 0;
   color: var(--light-color);
+  font-size: 1rem;
 }
 
 .Alert-danger {
@@ -10,4 +11,10 @@
 
 .Alert-success {
   background-color: var(--success-color);
+}
+
+@media (max-width: 600px) {
+  .Alert {
+    font-size: 0.8rem;
+  }
 }

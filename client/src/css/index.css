@@ -12,6 +12,7 @@
   --black-color: #000;
   --hover-time: 0.2s;
   --page-margin-top: 6rem;
+  --page-margin-top-large: 7rem;
 }
 
 * {
@@ -32,6 +33,12 @@ body {
   margin: 0 auto;
   margin-top: var(--page-margin-top);
   padding: 0 10px;
+}
+
+@media (max-width: 600px) {
+  .container {
+    margin-top: var(--page-margin-top-large);
+  }
 }
 
 a {

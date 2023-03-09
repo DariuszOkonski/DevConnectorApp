@@ -1,0 +1,25 @@
+.LeadHeader {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+  color: var(--dark-color);
+}
+
+.LeadHeader i {
+  margin-right: 10px;
+  font-size: 1.8rem;
+}
+
+.LeadHeader-text {
+  font-size: 1.8rem;
+}
+
+@media (max-width: 600px) {
+  .LeadHeader i {
+    font-size: 1.4rem;
+  }
+
+  .LeadHeader-text {
+    font-size: 1.4rem;
+  }
+}
