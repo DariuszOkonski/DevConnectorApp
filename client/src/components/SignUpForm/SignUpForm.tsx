@@ -4,6 +4,7 @@ import InputText from '../InputText/InputText';
 import Button from '../Button/Button';
 import InfoText from '../InfoText/InfoText';
 import { configText } from '../../config/config.text';
+import { endpoints } from '../../config/config.endpoints';
 
 export default function SignUpForm() {
   return (
@@ -16,12 +17,12 @@ export default function SignUpForm() {
       <InputText placeHolder={configText.inputText.password} />
       <InputText placeHolder={configText.inputText.confirmPassword} />
 
-      <Button path='/' text={configText.button.register} secondaryButton />
+      <Button path='#' text={configText.button.register} secondaryButton />
 
       <InfoText
         text={configText.infoText.signUp.text}
         link={configText.infoText.signUp.link}
-        path='/login'
+        path={endpoints.login()}
       />
     </form>
   );

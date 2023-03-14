@@ -1,6 +1,7 @@
 import React from 'react';
 import Button from '../../components/Button/Button';
 import { configText } from '../../config/config.text';
+import { endpoints } from '../../config/config.endpoints';
 import './Home.css';
 
 export default function Home() {
@@ -11,11 +12,11 @@ export default function Home() {
 
       <div>
         <Button
-          path='/register'
+          path={endpoints.register()}
           text={configText.button.signUp}
           secondaryButton
         />
-        <Button path='/login' text={configText.button.login} />
+        <Button path={endpoints.login()} text={configText.button.login} />
       </div>
     </div>
   );

@@ -1,4 +1,9 @@
 export const configText = {
+  menu: {
+    developers: 'Developers',
+    register: 'Register',
+    login: 'Login',
+  },
   home: {
     header: 'Developer Connector',
     paragraph:

@@ -29,7 +29,7 @@ export default function Profile({
         <h2 className='Profile__name'>{name}</h2>
         <p className='Profile__paragraph'>{position}</p>
         <p className='Profile__paragraph'>{address}</p>
-        <Button path='/' text={configText.button.viewProfile} secondaryButton />
+        <Button path='#' text={configText.button.viewProfile} secondaryButton />
       </div>
       <div className='Profile__skills'>
         <ul className='Profile__list'>
