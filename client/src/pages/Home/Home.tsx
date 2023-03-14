@@ -10,8 +10,12 @@ export default function Home() {
       <p className='Home__paragraph'>{configText.home.paragraph}</p>
 
       <div>
-        <Button text={configText.button.signUp} secondaryButton />
-        <Button text={configText.button.login} />
+        <Button
+          path='/register'
+          text={configText.button.signUp}
+          secondaryButton
+        />
+        <Button path='/login' text={configText.button.login} />
       </div>
     </div>
   );

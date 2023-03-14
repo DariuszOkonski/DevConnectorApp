@@ -1,17 +1,18 @@
 import './Button.css';
+import { Link } from 'react-router-dom';
 
 interface ButtonProps {
   text: string;
   secondaryButton?: boolean;
-  path?: string;
+  path: string;
 }
 
 export default function Button({ text, secondaryButton, path }: ButtonProps) {
   const className = !secondaryButton ? 'Button' : 'Button Secondary';
 
   return (
-    <a href={path} className={className}>
+    <Link to={path} className={className}>
       {text}
-    </a>
+    </Link>
   );
 }

@@ -16,11 +16,12 @@ export default function SignUpForm() {
       <InputText placeHolder={configText.inputText.password} />
       <InputText placeHolder={configText.inputText.confirmPassword} />
 
-      <Button text={configText.button.register} secondaryButton />
+      <Button path='/' text={configText.button.register} secondaryButton />
 
       <InfoText
         text={configText.infoText.signUp.text}
         link={configText.infoText.signUp.link}
+        path='/login'
       />
     </form>
   );

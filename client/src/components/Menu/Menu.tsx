@@ -1,16 +1,17 @@
 import './Menu.css';
+import { Link } from 'react-router-dom';
 
 export default function Menu() {
   return (
     <ul className='Menu'>
       <li>
-        <a href='#'>Developers</a>
+        <Link to='/developers'>Developers</Link>
       </li>
       <li>
-        <a href='#'>Register</a>
+        <Link to='/register'>Register</Link>
       </li>
       <li>
-        <a href='#'>Login</a>
+        <Link to='/login'>Login</Link>
       </li>
     </ul>
   );

@@ -29,7 +29,7 @@ export default function Profile({
         <h2 className='Profile__name'>{name}</h2>
         <p className='Profile__paragraph'>{position}</p>
         <p className='Profile__paragraph'>{address}</p>
-        <Button text={configText.button.viewProfile} secondaryButton />
+        <Button path='/' text={configText.button.viewProfile} secondaryButton />
       </div>
       <div className='Profile__skills'>
         <ul className='Profile__list'>
@@ -38,21 +38,6 @@ export default function Profile({
               <i className={configText.icons.check}></i> {skill}
             </li>
           ))}
-          {/* <li>
-            <i className={configText.icons.check}></i> HTML
-          </li>
-          <li>
-            <i className={configText.icons.check}></i> CSS
-          </li>
-          <li>
-            <i className={configText.icons.check}></i> JavaScript
-          </li>
-          <li>
-            <i className={configText.icons.check}></i> Python
-          </li>
-          <li>
-            <i className={configText.icons.check}></i> C#
-          </li> */}
         </ul>
       </div>
     </div>

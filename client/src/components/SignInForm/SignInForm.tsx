@@ -10,11 +10,12 @@ export default function SignInForm() {
       <InputText placeHolder={configText.inputText.emailAddress} />
       <InputText placeHolder={configText.inputText.password} />
 
-      <Button text={configText.button.login} secondaryButton />
+      <Button path='/' text={configText.button.login} secondaryButton />
 
       <InfoText
         text={configText.infoText.signIn.text}
         link={configText.infoText.signIn.link}
+        path='/register'
       />
     </form>
   );
