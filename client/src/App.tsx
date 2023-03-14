@@ -3,6 +3,7 @@ import Home from './pages/Home/Home';
 import './css/index.css';
 import SignIn from './pages/SignIn/SignIn';
 import SignUp from './pages/SignUp/SignUp';
+import Developers from './pages/Developers/Developers';
 
 function App() {
   return (
@@ -10,8 +11,9 @@ function App() {
       <Navigation />
       {/* <Home /> */}
       <div className='container'>
-        <SignIn />
+        {/* <SignIn /> */}
         {/* <SignUp /> */}
+        <Developers />
       </div>
     </div>
   );

@@ -1,0 +1,84 @@
+.Profile {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid var(--dark-color-border);
+  background-color: var(--light-color-border);
+  display: flex;
+  align-items: center;
+
+  color: var(--dark-color);
+}
+
+.Profile__image {
+  /* background-color: yellow; */
+  padding: 10px;
+  padding-right: 30px;
+}
+
+.Profile__image img {
+  border-radius: 50%;
+  width: 100%;
+  max-width: 200px;
+}
+
+.Profile__credentials {
+  /* background-color: crimson; */
+  flex-grow: 4;
+}
+
+.Profile__credentials .Button.Secondary {
+  margin: 0;
+}
+
+.Profile__name {
+  margin: 10px 0;
+}
+
+.Profile__paragraph {
+  margin: 10px 0;
+}
+
+.Profile__skills {
+  /* background-color: aqua; */
+  flex-grow: 2;
+}
+
+.Profile__list {
+  display: flex;
+  flex-direction: column;
+}
+
+.Profile__list li {
+  color: var(--primary-color);
+  margin: 5px;
+  font-size: 1rem;
+}
+
+@media (max-width: 800px) {
+  .Profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .Profile__image {
+    padding: 10px;
+  }
+
+  .Profile__image img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 150px;
+  }
+
+  .Profile__credentials {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .Profile__skills {
+    display: none;
+  }
+}

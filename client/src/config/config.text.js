@@ -11,6 +11,7 @@ export const configText = {
     signUp: 'Sign Up',
     login: 'Login',
     register: 'Register',
+    viewProfile: 'View Profile',
   },
   alert: {
     defaultMessage: 'Something went wrong',
@@ -30,6 +31,8 @@ export const configText = {
   icons: {
     user: 'fas fa-user',
     code: 'fas fa-code',
+    develop: 'fab fa-connectdevelop',
+    check: 'fas fa-check',
   },
   inputText: {
     emailAddress: 'Email Address',

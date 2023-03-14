@@ -3,7 +3,9 @@ const express = require('express');
 const app = express();
 
 app.get('/', (req, res) => {
-  res.send('Server 11');
+  return res.status(200).json({
+    msg: 'Running DevConnector',
+  });
 });
 
 const PORT = 8000;
